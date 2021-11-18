@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {Card} from './Components/UI/Card/Card.jsx';
+import {First_Presentation} from './Components/Layouts/First_Presentation/First_Presentation.jsx';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>    
-    <Card />
+    <First_Presentation />
   </React.StrictMode>,
   document.getElementById('root')
 );
