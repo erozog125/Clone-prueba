@@ -1,3 +1,5 @@
+
+
 .ul-footer {
   width: 100%;
   display: flex;
@@ -9,4 +11,13 @@
   list-style: none;
   margin: 0 10px;
   font-weight: 800;
+}
+
+.footer-app {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #020242;
 }

@@ -4,13 +4,13 @@ import {Presentation} from '../../UI/Presentation/Presentation';
 import './FirstPresentation.css';
 
 export const FirstPresentation = () => {
+  const lobo = { id:1, name:"Hola Grupo", URL:Image };
   return(
     <>
       <div className="first-layout">        
         <Presentation />
         <Card
-          image = {Image}
-          name = {'Hola Grupo'}
+          lobo={lobo}
         />
       </div>      
     </>
