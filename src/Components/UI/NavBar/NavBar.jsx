@@ -6,12 +6,11 @@ export const NavBar = () => {
     <>
       <nav className="navbar">
         <Link to="/">
-          <a>Home</a>
+          <button>Home</button>
         </Link>
         <Link to="/products">
-          <a>Products</a>
-        </Link>
-        <a href="/products">Products2</a>        
+          <button>Products</button>
+        </Link>        
       </nav>
     </>
   )

@@ -1,7 +1,6 @@
 import React from "react";
 import {Home} from './Components/Pages/Home/Home.jsx';
 import {Products} from './Components/Pages/Products/Products.jsx';
-import './App.css';
 
 import {
   BrowserRouter as Router,
@@ -10,8 +9,7 @@ import {
 } from "react-router-dom";
 
 export default function App() {
-  return (
-    <div className="div-app">
+  return (    
       <Router>
         <Switch>
             <Route path="/products">
@@ -21,7 +19,6 @@ export default function App() {
               <Home />
             </Route>
           </Switch>      
-      </Router>
-    </div>  
+      </Router>      
   );
 }

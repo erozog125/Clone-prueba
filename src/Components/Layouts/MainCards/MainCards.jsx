@@ -1,15 +1,14 @@
-import React from 'react';
+import React from 'react'
 import {lobos} from '../../../lobos';
-import { Card } from '../../UI/Card/Card';
 
-export const MainCards = () => {
-  return (    
-      lobos.map(lobo=>(
-          <div className="main-card"> 
-          <Card          
-            lobo={lobo}
-          />
-        </div>     
-      ))
-  )
+import './MainCards.css';
+import {Card} from '../../UI/Card/Card.jsx'
+
+
+export const MainCards =() =>{
+  return(
+    <div className="cards">
+      {lobos.map(lobo=>(<Card lobo={lobo}/>))}
+    </div>  
+  );
 }

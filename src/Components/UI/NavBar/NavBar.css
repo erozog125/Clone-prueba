@@ -4,16 +4,22 @@
   justify-content: space-between;  
 }
 
-.navbar a {
+.navbar button {
   text-decoration: none;
-  color: #fff;
+  width: 10rem;
+  height: 4rem;
   font-size: 1.5rem;   
+  color: #fff;
   padding: 1rem; 
   margin: 1rem;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: blue;
+  box-shadow: 0 0 20px blueviolet;
 }
 
-.navbar a:hover {
+.navbar button:hover {
   background-color: #f30b0b;  
   color: #e6dede;
-  transition: 01s;
+  transition: 02s;
 }
