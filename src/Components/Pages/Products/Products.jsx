@@ -1,16 +1,12 @@
 import React from 'react';
-import { Header } from '../../Layouts/Header/Header';
-import { MainCard } from '../../Layouts/MainCard/MainCard';
-import { Footer } from '../../Layouts/Footer/Footer';
-
-
+import {Header} from '../../Layouts/Header/Header';
+import './Products.css';
 
 export const Products = () => {
   return (
-    <div>
-      <Header />
-      <MainCard />
-      <Footer />
+    <div className="products">
+      <Header />      
+      <h2>Hola</h2>
     </div>
   )
 }

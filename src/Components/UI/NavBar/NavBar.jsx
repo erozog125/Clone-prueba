@@ -5,10 +5,10 @@ export const NavBar = () => {
   return (
     <>
       <nav className="navbar">
-      <Link to="/">
+        <Link to="/">
           <button>Home</button>
         </Link>
-        <Link to="/products">
+        <Link to="/Products">
           <button>Products</button>
         </Link>        
       </nav>

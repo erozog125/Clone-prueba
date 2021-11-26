@@ -1,8 +1,6 @@
-.header {
+.header {  
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;  
-  flex-wrap: wrap;
-  margin-top: 2rem;
+  align-items: center;
 }
