@@ -1,19 +1,27 @@
 .navbar {
   width: 30rem;
   display: flex;
-  justify-content: space-between;  
+  justify-content: center;  
 }
 
-.navbar a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.5rem;   
-  padding: 1rem; 
-  margin: 1rem;
+.navbar button {
+  font-size: 1.5rem;     
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 25px;
+  background-color: blue;
+  box-shadow: 0 0 20px #a54ef7;
+  color: #fff;  
+  margin: 2rem;
 }
 
-.navbar a:hover {
+.navbar button:hover {
   background-color: #f30b0b;  
   color: #e6dede;
-  transition: 01s;
+  transition: 0.5s;  
+  cursor: pointer;
+  width: 9rem;
+  height: 4rem;
+  font-size: 1.6rem;
 }
