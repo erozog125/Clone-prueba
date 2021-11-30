@@ -8,7 +8,7 @@ export const NavBar = () => {
         <Link to="/">
           <button>Home</button>
         </Link>
-        <Link to="/Products">
+        <Link to="/products">
           <button>Products</button>
         </Link>        
       </nav>
